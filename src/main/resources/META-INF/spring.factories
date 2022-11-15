@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.kkb.common.send.ding.CorgiClientConfig,\
+  com.kkb.common.pool.ThreadPoolConfig
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.kkb.common.send.ding.CorgiEnvironmentPostprocessor

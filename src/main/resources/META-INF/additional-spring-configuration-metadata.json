@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "sourceType": "com.kkb.common.send.ding.CorgiClientConfig",
+      "name": "scrm-corgi",
+      "type": "com.kkb.common.send.ding.CorgiClientConfig"
+    },
+    {
+      "name": "scrm-service-url",
+      "type": "java.util.Map<java.lang.String, java.lang.String>"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kkb.mos.service.url.scrm-corgi",
+      "type": "java.lang.String",
+      "description": "Service Url for scrm-corgi."
+    },
+    {
+      "name": "kkb.mos.service.url",
+      "type": "java.util.Map<java.lang.String, java.lang.String>",
+      "description": "Service Url for scrm service."
+    },
+    {
+      "name": "spring.application.app-id",
+      "type": "java.lang.String",
+      "description": "application id."
+    }
+  ],
+  "hints": [
+  ]
+}
+
